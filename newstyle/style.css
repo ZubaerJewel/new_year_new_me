@@ -1,7 +1,9 @@
-/* *{
-  font-family: 'work sans',sans-serif;
+*{
+  font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Work Sans', sans-serif;
  
-} */
+}
 
 .header
 {
@@ -132,11 +134,12 @@ height: 26.32px;
       /* section about my plan*/
 
       .my-plan
-      {position: absolute;
+      {
+        position: absolute;
         text-align: center;
         background: #FFF8F3;
         padding: 130px 150px;
-        margin-top: 400px;
+        margin-top: 500px;
         left: 20px;
         font-weight: 700;
         font-size: 40px;
