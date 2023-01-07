@@ -47,16 +47,66 @@
     border-radius: 5px;
   }
 
-      /* checkmark */
-  li {
+    
+
+  /*  section start for styles*/
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.my-failures{
+  text-align: center;
+  margin-top: 130px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+  .failures{
+    display: flex;
+    
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+      }
+      .failures-info
+      {
+      
+       margin-top: 180px;
+       margin-left: 160px;
+       text-align: left;
+    
+      }
+      .failures-title
+      {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 47px;
+          color: #151414;
+      }
+      .failures-description
+      {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #444343;
+      }
+      .checkmark{
+width: 349px;
+height: 26.32px;
+
+      }
+   /* checkmark */
+   li {
     position: relative; /* necessary for positioning the :after */
   }
   
-  li.done {
+  li.checkmark {
     list-style: none; /* remove normal bullet for done items */
   }
   
-  li.done:after {
+  li.checkmark:after {
     content: "";
     background-color: transparent;
     
@@ -79,55 +129,6 @@
       -ms-transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
   }
-
-  /*  section start for styles*/
-main{
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.my-failures{
-  text-align: center;
-  margin-top: 130px;
-  background: #FFF8F3;
-  border-radius: 10px;
-  padding: 130px 150px;
-}
-  .section1{
-    display: flex;
-    
-    position: absolute;
-    width: 1072px;
-    height: 723.3px;
-    left: 206px;
-    top: 939px;
-      }
-      .section1-info
-      {
-      
-       margin-top: 200px;
-       margin-left: 160px;
-    
-      }
-      .section1-title
-      {
-          font-weight: 700;
-          font-size: 40px;
-          line-height: 47px;
-          color: #151414;
-      }
-      .section1-description
-      {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: #444343;
-      }
-      .done{
-width: 349px;
-height: 26.32px;
-
-      }
- 
       /* section about my plan*/
 
       .my-plan
@@ -136,12 +137,12 @@ height: 26.32px;
         background: #FFF8F3;
         padding: 130px 150px;
         margin-top: 400px;
-        left: 120px;
+        left: 20px;
         font-weight: 700;
         font-size: 40px;
         color: #151414;
       }
-      .section2{
+      .plan{
         display: flex;
   
       }
@@ -168,25 +169,25 @@ height: 26.32px;
 }   
 .plan-description
 {
+  width: 218px;
+height: 197px;
+  margin-left: auto;
   font-weight: 500;
 font-size: 25px;
-line-height: 29px;
-text-align: center;
+text-align: justify;
 color: #737272;
 }  
  .blending{
-    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    background-image: url("../images/watch.png"), url("../images/gradient3.png");
 
     background-color: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: lighten;
-
-    
-position: absolute;
-width: 1140px;
-height: 300px;
-left: 230px;
-top: 2221.96px;
-border-radius: 8px;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2521.96px;
+    border-radius: 8px;
     
     }
     .blend-info
@@ -199,15 +200,14 @@ border-radius: 8px;
 
     }
     .blend-btn{
-width: 160px;
-height: 64px;
-background: #FFFFFF;
-border-radius: 5px;
-
-font-weight: 600;
-font-size: 20px;
-text-align: center;
-color: #005FAC;
+          width: 160px;
+          height: 64px;
+          background: #FFFFFF;
+          border-radius: 5px;
+          font-weight: 600;
+          font-size: 20px;
+          text-align: center;
+          color: #005FAC;
     }
     .blend-title{
       font-weight: 700;
@@ -220,17 +220,17 @@ color: #005FAC;
     footer{
       display: flex;
       position: absolute;
-width: 1600px;
-height: 577px;
-top: 2651.96px;
-color: #F8F8F8;
-background: #151414;
+      width: 1600px;
+      height: 577px;
+      top: 3551.96px;
+      color: #F8F8F8;
+      background: #151414;
     }
     .footer-description{
       font-weight: 400;
-font-size: 16px;
-width: 485px;
-height: 78px;
+      font-size: 16px;
+      width: 485px;
+      height: 78px;
     }
 
     .footer-future{
@@ -239,21 +239,65 @@ height: 78px;
     }
 
 .subscribe-email{
-  color:#FFFFFF;
-  border: 0.5px solid #FFFFFF;
-  width: 325px;
-height: 64px;
-
-background-color : #151414;; 
-border-radius: 5px;
+    color:#FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    width: 325px;
+    height: 64px;
+    background-color : #151414;; 
+    border-radius: 5px;
 
 }
 .subscribe-btn{
-  width: 170.11px;
+width: 170.11px;
 height: 64px;
 font-weight: 600;
 font-size: 20px;
 color: #FFFFFF;
 background-color:   #0a4eb3;
 border-radius:5px;
+}
+
+
+/* about section */
+.about{
+  position: absolute;
+  text-align: center;
+  margin-top: 1700px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  
+}
+.section-title{
+
+margin-bottom: 30px;
+font-weight: 700;
+font-size: 35px;
+text-align: center;
+}
+.section-description{
+font-size: 18px;
+text-align: justify;;
+color: #757575;
+margin-bottom: 30px;
+width: 818px;
+height: 197px;
+}
+
+.about-info-container{
+display: flex;
+width: 782px;
+height: 60px;
+justify-content: space-around;
+margin-top: auto;
+
+
+}
+.about .info-title{
+font-size: 20px;
+color: #757575;
+}
+.info-descriptions{
+font-weight: 400;
+font-size: 18px;
 }
