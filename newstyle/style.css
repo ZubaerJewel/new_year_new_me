@@ -1,0 +1,259 @@
+/* *{
+  font-family: 'work sans',sans-serif;
+ 
+} */
+
+.header
+{
+    /* background-image: url('images/banner/banner3.png'); */
+
+    position: relative;
+    width: 1541px;
+    height: 785px;
+      }
+
+/* Container holding the image and the text */
+
+  
+  /* Bottom right text */
+  .header-info 
+  {
+    position: absolute;
+    width: 525px;
+    height: 406px;
+    left: 845px;
+    top: 123px;
+    text-align: right;
+
+  }
+  .header-title
+  {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+  }
+  .header-description
+  {
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .header-btn
+  {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+  }
+
+      /* checkmark */
+  li {
+    position: relative; /* necessary for positioning the :after */
+  }
+  
+  li.done {
+    list-style: none; /* remove normal bullet for done items */
+  }
+  
+  li.done:after {
+    content: "";
+    background-color: transparent;
+    
+    /* position the checkbox */
+    position: absolute;
+    left: -16px;
+    top: 0px;
+  
+    /* setting the checkbox */
+      /* short arm */
+    width: 5px;
+    border-bottom: 3px solid #4D7C2A;
+      /* long arm */
+    height: 11px;
+    border-right: 3px solid #4D7C2A;
+    
+    /* rotate the mirrored L to make it a checkbox */
+    transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }
+
+  /*  section start for styles*/
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.my-failures{
+  text-align: center;
+  margin-top: 130px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+  .section1{
+    display: flex;
+    
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+      }
+      .section1-info
+      {
+      
+       margin-top: 200px;
+       margin-left: 160px;
+    
+      }
+      .section1-title
+      {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 47px;
+          color: #151414;
+      }
+      .section1-description
+      {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #444343;
+      }
+      .done{
+width: 349px;
+height: 26.32px;
+
+      }
+ 
+      /* section about my plan*/
+
+      .my-plan
+      {position: absolute;
+        text-align: center;
+        background: #FFF8F3;
+        padding: 130px 150px;
+        margin-top: 400px;
+        left: 120px;
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+      }
+      .section2{
+        display: flex;
+  
+      }
+      .my-plan-title
+      {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .plan-title
+      {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: 60px;
+      }
+
+.plan-header
+
+{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}   
+.plan-description
+{
+  font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+}  
+ .blending{
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+
+    background-color: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: lighten;
+
+    
+position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2221.96px;
+border-radius: 8px;
+    
+    }
+    .blend-info
+    {
+      width: 459px;
+      height: 182px;
+      margin-left: 94px;
+     margin-top: 50px;
+
+
+    }
+    .blend-btn{
+width: 160px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 5px;
+
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #005FAC;
+    }
+    .blend-title{
+      font-weight: 700;
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+
+    /* footer styles */
+
+    footer{
+      display: flex;
+      position: absolute;
+width: 1600px;
+height: 577px;
+top: 2651.96px;
+color: #F8F8F8;
+background: #151414;
+    }
+    .footer-description{
+      font-weight: 400;
+font-size: 16px;
+width: 485px;
+height: 78px;
+    }
+
+    .footer-future{
+      margin-left: 250px;
+      margin-top : 150px;
+    }
+
+.subscribe-email{
+  color:#FFFFFF;
+  border: 0.5px solid #FFFFFF;
+  width: 325px;
+height: 64px;
+
+background-color : #151414;; 
+border-radius: 5px;
+
+}
+.subscribe-btn{
+  width: 170.11px;
+height: 64px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+background-color:   #0a4eb3;
+border-radius:5px;
+}
